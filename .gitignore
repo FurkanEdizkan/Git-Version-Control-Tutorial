@@ -3,3 +3,4 @@
 ignore_me
 /assets
 venv/
+database/passwords.db
