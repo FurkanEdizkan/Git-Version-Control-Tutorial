@@ -1,3 +1,5 @@
 *.py[cod]
 !dontignoreme.pyc
-ignoreme
+ignore_me
+/assets
+venv/
