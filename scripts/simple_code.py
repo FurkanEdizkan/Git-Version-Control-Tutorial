@@ -5,12 +5,11 @@ import os
 Create random number and writes into a log file
 """
 
-code_folder_path = os.getcwd()
-file_path = os.path.join(code_folder_path, "hash_log.txt")
+text_file_path = os.path.join(os.getcwd(), "hash_log.txt")
 
-for i in range(5):
-    hash = random.getrandbits(128)
-    print("Hash Values == %032x", hash)
+for i in range(10):
+    hash = random.getrandbits(64)
+    print("{}. Hash Values == %016x".format(i+i) % hash)
 
-    f = open(str(file_path), "a")
+    f = open(str(text_file_path), "a")
     f.write(str(hash)+ "\n")
