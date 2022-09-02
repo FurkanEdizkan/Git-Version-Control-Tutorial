@@ -21,7 +21,7 @@ Git, GitHub &amp; GitLab Tutorial
     <li><a href="#Git">Git</a></li>
     <li><a href="#GitLab">GitHub</a></li>
     <li><a href="#GitLab">GitLab</a></li>
-    <!-- <li><a href="#contributing">Contributing</a></li> -->
+    <li><a href="#Contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <!-- <li><a href="#contact">Contact</a></li> -->
     <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
@@ -35,14 +35,14 @@ Git, GitHub &amp; GitLab Tutorial
 ## GitLab
 
 <!-- Contribuing to Project -->
-<!--
+<
 ## Contributing
 1. Fork the Project
 2. Create a Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
--->
+
 
 <!-- License -->
 ## License
