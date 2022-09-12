@@ -12,8 +12,8 @@
 
 # !!! Work in Progress !!!
 
-# Git-GitHub-GitLab-Tutorial
-Git, GitHub &amp; GitLab Tutorial
+# Git, GitHub & GitLab Guide
+This repository 
 
 <!-- Table of Contents -->
 <details>
@@ -24,15 +24,15 @@ Git, GitHub &amp; GitLab Tutorial
     <li><a href="#Contribute">Contribute</a></li>
     <li><a href="#License">License</a></li>
     <!-- <li><a href="#contact">Contact</a></li> -->
-    <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
+    <li><a href="#References">References</a></li>
   </ol>
 </details>
 
-## Git
+- ## Git
 
-## GitHub
+- ## GitHub
 
-## GitLab
+- ## GitLab
 
 <!-- Contribuing to Project -->
 # Contributing
@@ -40,8 +40,16 @@ We welcome every contribution, suggestion and improvement
 
 See [the contributing guide](CONTRIBUTING.md) for more details
 
-
 <!-- License -->
-## License
+# License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+# References
+
+## 
+
+## Logos
+- [Git](CONTRIBUTING.md)
+- [GitHub](CONTRIBUTING.md)
+- [GitLab](CONTRIBUTING.md)
