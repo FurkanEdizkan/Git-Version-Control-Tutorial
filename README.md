@@ -35,12 +35,11 @@ Git, GitHub &amp; GitLab Tutorial
 ## GitLab
 
 <!-- Contribuing to Project -->
-## Contributing
-1. Fork the Project
-2. Create a Feature Branch (`git checkout -b feature_remote/feature`)
-3. Commit Changes (`git commit -m 'Added feature`)
-4. Push to the Branch (`git push origin feature_remote/feature`)
-5. Open a Pull Request
+# Contributing
+We welcome every contribution, suggestion and improvement
+
+See [the contributing guide](CONTRIBUTING.md) for more details
+
 
 <!-- License -->
 ## License
