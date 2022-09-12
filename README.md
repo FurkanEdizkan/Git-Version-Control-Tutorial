@@ -3,10 +3,10 @@
 <!-- Logo -->
 <p align="center">
 
-  <img src="https://github.com/FurkanEdizkan/Git-GitHub-GitLab-Tutorial/blob/main/assets/images/git_name_logo_transparent.png" width="200" />
+  <img src="assets/images/git_name_logo_transparent.png" width="200" />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://github.com/FurkanEdizkan/Git-GitHub-GitLab-Tutorial/blob/main/assets/images/GitHub-Mark-Light-120px-plus.png" /> 
-  <img src="https://github.com/FurkanEdizkan/Git-GitHub-GitLab-Tutorial/blob/main/assets/images/gitlab-logo-200.png" width="300" />
+  <img src="assets/images/GitHub-Mark-Light-120px-plus.png" /> 
+  <img src="assets/images/gitlab-logo-200.png" width="300" />
 
 </p>
 
