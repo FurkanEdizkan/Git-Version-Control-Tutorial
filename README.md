@@ -1,6 +1,4 @@
-<!-- Project Shields -->
-
-<!-- Logo -->
+<!-- Logos -->
 <p align="center">
 
   <img src="assets/images/git_name_logo_transparent.png" width="200"  />
@@ -9,6 +7,15 @@
   <img src="assets/images/gitlab-logo-200.png" width="300" />
 
 </p>
+
+
+<!-- Shields -->
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+![GitHub forks](https://img.shields.io/github/forks/FurkanEdizkan/Git-GitHub-GitLab-Tutorial?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/FurkanEdizkan/Git-GitHub-GitLab-Tutorial?style=social)
+![GitHub](https://img.shields.io/github/license/FurkanEdizkan/Git-GitHub-GitLab-Tutorial)
+
 
 <!-- Badges -->
 
