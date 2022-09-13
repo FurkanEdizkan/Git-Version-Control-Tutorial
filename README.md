@@ -1,7 +1,4 @@
 <!-- Logos -->
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
 
   <img src="assets/images/git_name_logo_transparent.png" width="200"  />
@@ -11,10 +8,9 @@
 
 </p>
 
-
 <!-- Shields -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![GitHub forks](https://img.shields.io/github/forks/FurkanEdizkan/Git-GitHub-GitLab-Tutorial?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/FurkanEdizkan/Git-GitHub-GitLab-Tutorial?style=social)
@@ -25,6 +21,8 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
+
+
 
 ## !!! Work in Progress !!!
 
