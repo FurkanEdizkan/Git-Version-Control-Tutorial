@@ -1,0 +1,30 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "FurkanEdizkan",
+      "name": "Furkan Edizkan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65301915?v=4",
+      "profile": "https://github.com/FurkanEdizkan",
+      "contributions": [
+        "code",
+        "content",
+        "doc",
+        "design",
+        "maintenance",
+        "tutorial"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Git-GitHub-GitLab-Tutorial",
+  "projectOwner": "FurkanEdizkan",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
