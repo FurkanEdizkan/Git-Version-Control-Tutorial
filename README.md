@@ -35,8 +35,8 @@ This repository
     <li><a href="#GitLab">GitLab</a></li>
     <li><a href="#Contribute">Contribute</a></li>
     <li><a href="#License">License</a></li>
-    <li><a href="#Contributors">Contributors</a></li>
     <li><a href="#References">References</a></li>
+    <li><a href="#Contributors">Contributors</a></li>
   </ol>
 </details>
 
@@ -52,10 +52,10 @@ This repository
 #
 
 <!-- Contribuing to Project -->
-## Contributing
+## Contribute
 We welcome every contribution, suggestion and improvement
 
-We will try to address all issues as sson possible
+We will try to address all issues as soon possible
 
 See [the contributing guide](CONTRIBUTING.md) for more details
 
