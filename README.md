@@ -66,7 +66,7 @@ See [the contributing guide](CONTRIBUTING.md) for more details
 <!-- License -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 # References
 
