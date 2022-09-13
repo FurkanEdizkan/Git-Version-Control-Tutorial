@@ -12,6 +12,7 @@
 <!-- Shields -->
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 ![GitHub forks](https://img.shields.io/github/forks/FurkanEdizkan/Git-GitHub-GitLab-Tutorial?style=social)
 ![GitHub Repo stars](https://img.shields.io/github/stars/FurkanEdizkan/Git-GitHub-GitLab-Tutorial?style=social)
 ![GitHub](https://img.shields.io/github/license/FurkanEdizkan/Git-GitHub-GitLab-Tutorial)
