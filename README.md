@@ -29,7 +29,7 @@
 ## !!! Work in Progress !!!
 
 # Git, GitHub & GitLab Guide
-This repository 
+This repository is **/will be/** a guide and usage examples for Git, GitHub and GitLab.
 
 <!-- Table of Contents -->
 <details>
