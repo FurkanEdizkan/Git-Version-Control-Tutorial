@@ -71,11 +71,12 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 # References
 
 ## Learning
-- [Pro Git book](https://git-scm.com/book/en/v2)
 - [Git Tutorial](https://git-scm.com/docs/gittutorial)
-- [Atlassian Bitbucket Tutorial](https://www.atlassian.com/git)
+- [Pro Git book](https://git-scm.com/book/en/v2)
 - [GitHub Docs](https://docs.github.com/en)
 - [GitLab Docs](https://docs.gitlab.com/)
+- [Atlassian Bitbucket Tutorial](https://www.atlassian.com/git)
+
 ## Logos & Images
 - [Git](https://git-scm.com/downloads/logos)
 - [GitHub](https://github.com/logos)
