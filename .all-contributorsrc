@@ -19,6 +19,18 @@
         "maintenance",
         "tutorial"
       ]
+    },
+    {
+      "login": "Akerdogmus",
+      "name": "Alim Kerem Erdoğmuş",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44196950?v=4",
+      "profile": "https://github.com/Akerdogmus",
+      "contributions": [
+        "tool",
+        "test",
+        "userTesting",
+        "talk"
+      ]
     }
   ],
   "contributorsPerLine": 7,
