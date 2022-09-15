@@ -29,7 +29,7 @@
 ## !!! Work in Progress !!!
 
 # Git, GitHub & GitLab Guide
-This repository 
+This repository is **/will be/** a guide and usage examples for Git, GitHub and GitLab.
 
 <!-- Table of Contents -->
 <details>
@@ -71,11 +71,12 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 # References
 
 ## Learning
-- [Pro Git book](https://git-scm.com/book/en/v2)
 - [Git Tutorial](https://git-scm.com/docs/gittutorial)
-- [Atlassian Bitbucket Tutorial](https://www.atlassian.com/git)
+- [Pro Git book](https://git-scm.com/book/en/v2)
 - [GitHub Docs](https://docs.github.com/en)
 - [GitLab Docs](https://docs.gitlab.com/)
+- [Atlassian Bitbucket Tutorial](https://www.atlassian.com/git)
+
 ## Logos & Images
 - [Git](https://git-scm.com/downloads/logos)
 - [GitHub](https://github.com/logos)
@@ -105,5 +106,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!--AKE WAS HERE :)-->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
