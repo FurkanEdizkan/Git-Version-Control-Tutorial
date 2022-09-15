@@ -11,7 +11,7 @@
 <!-- Shields -->
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![GitHub forks](https://img.shields.io/github/forks/FurkanEdizkan/Git-GitHub-GitLab-Tutorial?style=social)
@@ -93,6 +93,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
   <tbody>
     <tr>
       <td align="center"><a href="https://github.com/FurkanEdizkan"><img src="https://avatars.githubusercontent.com/u/65301915?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Furkan Edizkan</b></sub></a><br /><a href="https://github.com/FurkanEdizkan/Git-GitHub-GitLab-Tutorial/commits?author=FurkanEdizkan" title="Code">💻</a> <a href="#content-FurkanEdizkan" title="Content">🖋</a> <a href="https://github.com/FurkanEdizkan/Git-GitHub-GitLab-Tutorial/commits?author=FurkanEdizkan" title="Documentation">📖</a> <a href="#design-FurkanEdizkan" title="Design">🎨</a> <a href="#maintenance-FurkanEdizkan" title="Maintenance">🚧</a> <a href="#tutorial-FurkanEdizkan" title="Tutorials">✅</a></td>
+      <td align="center"><a href="https://github.com/Akerdogmus"><img src="https://avatars.githubusercontent.com/u/44196950?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Alim Kerem Erdoğmuş</b></sub></a><br /><a href="#tool-Akerdogmus" title="Tools">🔧</a> <a href="https://github.com/FurkanEdizkan/Git-GitHub-GitLab-Tutorial/commits?author=Akerdogmus" title="Tests">⚠️</a> <a href="#userTesting-Akerdogmus" title="User Testing">📓</a> <a href="#talk-Akerdogmus" title="Talks">📢</a></td>
     </tr>
   </tbody>
 </table>
