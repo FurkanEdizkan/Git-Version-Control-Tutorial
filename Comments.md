@@ -1,6 +1,6 @@
 ## Comments
 
-**For those who atteneded to tutorial session or just want to comment about repository**
+**For those who attended to tutorial session or just want to comment about repository**
 
 - Fork this repository
 -  Create a new branch
