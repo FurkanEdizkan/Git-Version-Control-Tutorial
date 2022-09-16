@@ -31,6 +31,7 @@
 # Git, GitHub & GitLab Guide
 This repository is **/will be/** a guide and usage examples for Git, GitHub and GitLab.
 
+
 <!-- Table of Contents -->
 <details>
   <summary>Table of Contents</summary>
@@ -62,6 +63,10 @@ We welcome every contribution, suggestion and improvement
 We will try to address all issues as soon possible
 
 See [the contributing guide](CONTRIBUTING.md) for more details
+
+#
+For those who attended the tutorial session and want to be inside contributors list check [Comments.md](Comments.md) for details.
+
 
 <!-- License -->
 ## License
