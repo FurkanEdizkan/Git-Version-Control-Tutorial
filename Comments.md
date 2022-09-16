@@ -1,14 +1,15 @@
 ## Comments
 
-**For those who atteneded to tutorial session**
+**For those who atteneded to tutorial session or just want to comment about repository**
 
 - Fork this repository
 -  Create a new branch
 -  Add your comment inside table. 
 -  DON'T delete someone else's comment 
 -  Push your branch into your forked repository
+-  Create pull request
 
-Then push your branch into your repository and create pull request
+
 
 | Name      | Comment |
 | ----------- | ----------- |
