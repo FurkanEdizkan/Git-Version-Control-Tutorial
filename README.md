@@ -30,7 +30,7 @@
 
 # Git, GitHub & GitLab Guide
 This repository contains
-- Git usage guide
+- Git quick guide and Advanced Git guide
 - GitHub and GitLab usage guide
 - Version Control examples and recommendations 
 
