@@ -31,16 +31,6 @@
         "userTesting",
         "talk"
       ]
-    },
-    {
-      "login": "ramazanakkulak",
-      "name": "Ramazan Akkulak",
-      "avatar_url": "https://avatars.githubusercontent.com/u/78980365?v=4",
-      "profile": "https://github.com/ramazanakkulak",
-      "contributions": [
-        "tutorial",
-        "test"
-      ]
     }
   ],
   "contributorsPerLine": 7,
