@@ -34,7 +34,7 @@ This repository contains
 - GitHub and GitLab usage guide
 - Version Control examples and recommendations 
 
-
+#
 <!-- Table of Contents -->
 <details>
   <summary>Table of Contents</summary>
