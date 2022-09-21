@@ -53,11 +53,16 @@ This repository contains
 
 ## Git
 
-Check git installation
-
+- Download & install [Git](https://git-scm.com/downloads)
+```bash
+apt-get install git
+```
+- Check git installation
 ```bash
 git --version
 ```
+
+
 
 ## GitHub
 
