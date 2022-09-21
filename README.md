@@ -53,6 +53,12 @@ This repository contains
 
 ## Git
 
+Check git installation
+
+```bash
+git --version
+```
+
 ## GitHub
 
 ## GitLab
