@@ -54,6 +54,8 @@ This repository contains
 ## Git
 
 - Download & install [Git](https://git-scm.com/downloads)
+
+For Debian/Ubuntu
 ```bash
 apt-get install git
 ```
@@ -63,18 +65,18 @@ apt-get install git
 git --version
 ```
 
-- Initilalize git configurations
+- Initialize git configurations
 ```bash
 git config --global user.name "user_name"
 git config --global user.email "email"
 ```
 
-- Configture main branch name as "main" (For older Git versions)
+- Configure main branch name as "main" (For older Git versions)
 ```bash
 git config --global init.defaultBranch main
 ```
 
-- Configture Visual Studio Code for Git functions
+- Configure Visual Studio Code for Git functions
 ```bash
 git config --global core.editor 'code --wait --new-window'
 git config --global diff.tool vscode
