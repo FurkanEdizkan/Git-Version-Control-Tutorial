@@ -61,6 +61,10 @@ apt-get install git
 ```bash
 git --version
 ```
+- Create a new Git repository
+```bash
+git init
+```
 
 
 
