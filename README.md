@@ -69,6 +69,11 @@ git config --global user.name "user_name"
 git config --global user.email "email"
 ```
 
+- Configture main branch name as "main" (For older Git versions)
+```bash
+git config –-global init.defaultBranch main
+```
+
 - Create a new Git repository
 ```bash
 git init
