@@ -71,7 +71,16 @@ git config --global user.email "email"
 
 - Configture main branch name as "main" (For older Git versions)
 ```bash
-git config –-global init.defaultBranch main
+git config --global init.defaultBranch main
+```
+
+- Configture Visual Studio Code for Git functions
+```bash
+git config --global core.editor 'code --wait --new-window'
+git config --global diff.tool vscode
+git config --global difftool.vscode.cmd'code --wait --diff $LOCAL $REMOTE'
+git config --global merge.tool vscode
+git config --global mergetool.vscode.cmd'code --wait $MERGED'
 ```
 
 - Create a new Git repository
