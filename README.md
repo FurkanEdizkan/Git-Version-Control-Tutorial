@@ -57,10 +57,18 @@ This repository contains
 ```bash
 apt-get install git
 ```
+
 - Check git installation
 ```bash
 git --version
 ```
+
+- Initilalize git configurations
+```bash
+git config --global user.name "user_name"
+git config --global user.email "email"
+```
+
 - Create a new Git repository
 ```bash
 git init
