@@ -96,6 +96,17 @@ touch .gitignore
 ```
 [GitHub .gitignore templates](https://github.com/github/gitignore)
 
+## .gitignore examples
+| .gitignore | Description |
+| ----------- | ----------- |
+| venv/ | Ignore all "venv" folders |
+| *.orig | Ignore all files ending with ".orig" |
+| *.py[cod] | Ignore all files ending with ".pyc", "pyo" and "pyd" |
+| !dont_ignore_this_file | Don't ignore this file |
+| ignore_this_file | Ignore this file |
+| /database | Ignore "database" named folder under "/" |
+| doc/*.txt | Ignore all files ending with ".txt" under "doc/" folder |
+| doc/**/*.pcd | Ignore all files ending ".pcd" under "doc/" and it's sub folders |
 
 
 ## GitHub
