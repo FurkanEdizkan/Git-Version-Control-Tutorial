@@ -90,6 +90,12 @@ git config --global mergetool.vscode.cmd'code --wait $MERGED'
 git init
 ```
 
+- Create a gitignore file
+```bash
+touch .gitignore
+```
+[GitHub .gitignore templates](https://github.com/github/gitignore)
+
 
 
 ## GitHub
