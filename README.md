@@ -115,6 +115,12 @@ touch .gitmessage
 git config --global commit.template ~/.gitmessage
 ```
 
+- Check git repository status
+```bash
+git status
+```
+
+
 #### [Example git commmit message template](.gitmessage)
 
 ## GitHub
