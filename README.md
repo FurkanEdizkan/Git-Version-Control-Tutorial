@@ -105,8 +105,13 @@ git init
 ```bash
 touch .gitignore
 ```
-[GitHub .gitignore templates](https://github.com/github/gitignore)
+#### [GitHub .gitignore templates](https://github.com/github/gitignore)
 
+- Create a git commit message template file
+```bash
+touch .gitmessage
+```
+#### [Example git commmit message template](.gitmessage)
 
 ## GitHub
 
