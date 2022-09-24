@@ -89,14 +89,7 @@ git config --global mergetool.vscode.cmd'code --wait $MERGED'
 ```bash
 git init
 ```
-
-- Create a gitignore file
-```bash
-touch .gitignore
-```
-[GitHub .gitignore templates](https://github.com/github/gitignore)
-
-## .gitignore examples
+### .gitignore
 | .gitignore | Description |
 | ----------- | ----------- |
 | venv/ | Ignore all "venv" folders |
@@ -107,6 +100,12 @@ touch .gitignore
 | /database | Ignore "database" named folder under "/" |
 | doc/*.txt | Ignore all files ending with ".txt" under "doc/" folder |
 | doc/**/*.pcd | Ignore all files ending ".pcd" under "doc/" and it's sub folders |
+
+- Create a gitignore file
+```bash
+touch .gitignore
+```
+[GitHub .gitignore templates](https://github.com/github/gitignore)
 
 
 ## GitHub
