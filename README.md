@@ -111,6 +111,10 @@ touch .gitignore
 ```bash
 touch .gitmessage
 ```
+```bash
+git config --global commit.template ~/.gitmessage
+```
+
 #### [Example git commmit message template](.gitmessage)
 
 ## GitHub
