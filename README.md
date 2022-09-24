@@ -89,7 +89,9 @@ git config --global mergetool.vscode.cmd'code --wait $MERGED'
 ```bash
 git init
 ```
-### .gitignore
+
+- Create a gitignore file
+
 | .gitignore | Description |
 | ----------- | ----------- |
 | venv/ | Ignore all "venv" folders |
@@ -101,10 +103,10 @@ git init
 | doc/*.txt | Ignore all files ending with ".txt" under "doc/" folder |
 | doc/**/*.pcd | Ignore all files ending ".pcd" under "doc/" and it's sub folders |
 
-- Create a gitignore file
 ```bash
 touch .gitignore
 ```
+
 #### [GitHub .gitignore templates](https://github.com/github/gitignore)
 
 - Create a git commit message template file
@@ -114,14 +116,12 @@ touch .gitmessage
 ```bash
 git config --global commit.template ~/.gitmessage
 ```
+#### [Example git commmit message template](.gitmessage)
 
 - Check git repository status
 ```bash
 git status
 ```
-
-
-#### [Example git commmit message template](.gitmessage)
 
 ## GitHub
 
