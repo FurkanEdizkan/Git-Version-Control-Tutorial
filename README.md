@@ -118,6 +118,13 @@ git config --global commit.template ~/.gitmessage
 ```
 #### [Example git commmit message template](.gitmessage)
 
+- Create a github pull request template file
+```bash
+mkdir .github
+touch .github/pull_request_template.md
+```
+#### [Example pull request template](.github/pull_request_template.md)
+#### [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 - Check git repository status
 ```bash
 git status
