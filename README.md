@@ -125,6 +125,14 @@ touch .github/pull_request_template.md
 ```
 #### [Example pull request template](.github/pull_request_template.md)
 #### [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+
+- Create a contributing.md template file
+```bash
+touch .contributing.md
+```
+#### [Example contributing.md file](contributing.md)
+
+
 - Check git repository status
 ```bash
 git status
@@ -142,7 +150,7 @@ We welcome every contribution, suggestion and improvement
 
 We will try to address all issues as soon possible
 
-See [the contributing guide](CONTRIBUTING.md) for more details
+See [the contributing guide](contributing.md) for more details
 
 #
 For those who attended the tutorial session and want to be inside contributors list check [Comments.md](Comments.md) for details.
