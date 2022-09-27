@@ -85,6 +85,15 @@ git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd'code --wait $MERGED'
 ```
 
+In order to work on the GitHub repositories, we either need to create PAT or generate a SSH key pair. 
+
+- [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+  
+  Generated PAT will be used instead of user password for Git operations connected to GitHub. Don't forget it and store it in a safe place.
+
+  GitHub :arrow_right: Settings :arrow_right: Developer Settings :arrow_right: [Personal Access Token](https://github.com/settings/tokens)
+
+
 - Create a new Git repository
 ```bash
 git init
