@@ -97,6 +97,8 @@ In order to work on the GitHub repositories, we either need to create PAT or gen
 - [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
   We need to create a new SSH key, generated key pair will be used to authenticate to GitHub. Generate a new ssh-key and add public key to [GitHub-SSH and GPG keys](https://github.com/settings/keys).
+
+  GitHub :arrow_right: Settings :arrow_right: [SSH and GPG keys](https://github.com/settings/keys)
   
 ```bash
 ssh-keygen -t ed25519 -C "email" # Create a new SSH key
@@ -110,8 +112,6 @@ ssh-add ~/.ssh/id_ed25519 # Add SSH key
 ```bash
 cat ~/.ssh/id_ed25519.pub # Copy the ed25519 public key
 ```
-GitHub :arrow_right: Settings :arrow_right: [SSH and GPG keys](https://github.com/settings/keys)
-
 
 #
 - Create a new Git repository
