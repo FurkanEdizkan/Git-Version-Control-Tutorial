@@ -84,7 +84,7 @@ git config --global difftool.vscode.cmd'code --wait --diff $LOCAL $REMOTE'
 git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd'code --wait $MERGED'
 ```
-
+#
 In order to work on the GitHub repositories, we either need to create PAT or generate a SSH key pair. 
 
 - [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
@@ -94,6 +94,26 @@ In order to work on the GitHub repositories, we either need to create PAT or gen
   GitHub :arrow_right: Settings :arrow_right: Developer Settings :arrow_right: [Personal Access Token](https://github.com/settings/tokens)
 
 
+- [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+  We need to create a new SSH key, generated key pair will be used to authenticate to GitHub. Generate a new ssh-key and add public key to [GitHub-SSH and GPG keys](https://github.com/settings/keys).
+  
+```bash
+ssh-keygen -t ed25519 -C "email" # Create a new SSH key
+```
+```bash
+eval "$(ssh-agent -s)" # Start SHH-agent
+```
+```bash
+ssh-add ~/.ssh/id_ed25519 # Add SSH key 
+```
+```bash
+cat ~/.ssh/id_ed25519.pub # Copy the ed25519 public key
+```
+GitHub :arrow_right: Settings :arrow_right: [SSH and GPG keys](https://github.com/settings/keys)
+
+
+#
 - Create a new Git repository
 ```bash
 git init
@@ -101,7 +121,7 @@ git init
 
 - Clone Git repository
 ```bash
-git clone <repository_link>
+git clone <repository_link(HTTPS or SSH)>
 ```
 
 - Create a gitignore file
