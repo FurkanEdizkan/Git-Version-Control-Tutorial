@@ -90,6 +90,11 @@ git config --global mergetool.vscode.cmd'code --wait $MERGED'
 git init
 ```
 
+- Clone Git repository
+```bash
+git clone <repository_link>
+```
+
 - Create a gitignore file
 
 | .gitignore | Description |
