@@ -162,15 +162,18 @@ touch .gitmessage
 git config --global commit.template ~/.gitmessage
 ```
 #### [Example git commmit message template](.gitmessage)
-
+#
 - Create a github pull request template file
+
+  GitHub pull request used for adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understanable, we use given pull request template.
+  
 ```bash
 mkdir .github
 touch .github/pull_request_template.md
 ```
 #### [Example pull request template](.github/pull_request_template.md)
 #### [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
-
+#
 - Create a contributing.md template file
 ```bash
 touch .contributing.md
