@@ -149,10 +149,12 @@ git clone <repository_link(HTTPS or SSH)>
 ```bash
 touch .gitignore
 ```
-
 #### [GitHub .gitignore templates](https://github.com/github/gitignore)
-
+#
 - Create a git commit message template file
+  
+  In order to keep git history clean and understandable, every commit done to any repository needed to be in a clear format. We need to use commit templates, repositories suggest we use.
+
 ```bash
 touch .gitmessage
 ```
