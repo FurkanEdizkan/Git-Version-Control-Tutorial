@@ -86,6 +86,14 @@ git config --global difftool.vscode.cmd'code --wait --diff $LOCAL $REMOTE'
 git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd'code --wait $MERGED'
 ```
+
+
+- Unset a git configuration
+```bash
+git config --global --unset <option>
+git config --global --unset core.editor # Remove core.editor from configuration
+```
+
 #
 In order to work on the GitHub repositories, we either need to create PAT or generate a SSH key pair. 
 
