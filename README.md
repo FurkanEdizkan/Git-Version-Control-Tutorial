@@ -72,6 +72,8 @@ git config --global user.email "email"
 ```
 
 - Configure main branch name as "main" (For older Git versions)
+  
+  Latest version of git comes with defaultBranch name as "main"
 ```bash
 git config --global init.defaultBranch main
 ```
