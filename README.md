@@ -156,7 +156,7 @@ touch .gitignore # Create .gitignore file
   In order to keep git history clean and understandable, every commit done to any repository needed to be in a clear format. We need to use commit templates, repositories suggest we use.
 
 ```bash
-touch .gitmessage
+touch .gitmessage # Create .gitmessage file
 ```
 ```bash
 git config --global commit.template ~/.gitmessage
