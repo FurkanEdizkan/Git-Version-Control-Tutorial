@@ -59,25 +59,25 @@ For Debian/Ubuntu
 ```bash
 apt-get install git
 ```
-
+#
 - Check git installation
 ```bash
 git --version
 ```
-
+#
 - Initialize git configurations
 ```bash
 git config --global user.name "user_name"
 git config --global user.email "email"
 ```
-
+#
 - Configure main branch name as "main" (For older Git versions)
   
-  Latest version of git comes with defaultBranch name as "main"
+  Latest version of git comes with defaultBranch name as "main".
 ```bash
 git config --global init.defaultBranch main
 ```
-
+#
 - Configure Visual Studio Code for Git functions
 ```bash
 git config --global core.editor 'code --wait --new-window'
@@ -86,16 +86,13 @@ git config --global difftool.vscode.cmd'code --wait --diff $LOCAL $REMOTE'
 git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd'code --wait $MERGED'
 ```
-
-
 - Unset a git configuration
 ```bash
 git config --global --unset <option>
 git config --global --unset core.editor # Remove core.editor from configuration
 ```
-
 #
-In order to work on the GitHub repositories, we either need to create PAT or generate a SSH key pair. 
+In order to work on the GitHub repositories, we either need to create PAT or generate a SSH key pair. If we are not planning to use GitHub we can skip this step.
 
 - [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   
@@ -122,8 +119,8 @@ ssh-add ~/.ssh/id_ed25519 # Add SSH key
 ```bash
 cat ~/.ssh/id_ed25519.pub # Copy the ed25519 public key
 ```
-
 #
+
 - Create a new Git repository
 ```bash
 git init
@@ -135,6 +132,8 @@ git clone <repository_link(HTTPS or SSH)>
 ```
 
 - Create a gitignore file
+  
+  Gitignore file used to ignore files in the repository that we don't want toı track changes or aboid uploading them to remote repositories.
 
 | .gitignore | Description |
 | ----------- | ----------- |
