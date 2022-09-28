@@ -147,7 +147,7 @@ git clone <repository_link(HTTPS or SSH)>
 | doc/**/*.pcd | Ignore all files ending ".pcd" under "doc/" and it's sub folders |
 
 ```bash
-touch .gitignore
+touch .gitignore # Create .gitignore file
 ```
 #### [GitHub .gitignore templates](https://github.com/github/gitignore)
 #
