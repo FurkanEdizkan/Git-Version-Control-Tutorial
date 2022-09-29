@@ -60,7 +60,7 @@ For Debian/Ubuntu
 apt-get install git
 ```
 #
-- Check git installation
+- Check git version & installation
 ```bash
 git --version
 ```
