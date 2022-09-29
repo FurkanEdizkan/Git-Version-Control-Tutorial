@@ -175,15 +175,17 @@ git config --global commit.template ~/.gitmessage
   GitHub pull request used for reviewing process during adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understanable, we use given pull request template.
   
 ```bash
-mkdir .github
-touch .github/pull_request_template.md
+mkdir .github # Create a .github folder
+touch .github/pull_request_template.md # Create pull_request_template.md file
 ```
 #### [Example pull request template](.github/pull_request_template.md)
 #### [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 #
 - Create a contributing.md template file
+
+  Open-source projects usually supported by contributors. TO determine how someone can contribute and help to our project, we define a contributin guilde.
 ```bash
-touch .contributing.md
+touch .contributing.md # Create .contributing.md file
 ```
 #### [Example contributing.md file](contributing.md)
 
