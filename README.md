@@ -154,7 +154,7 @@ git clone <repository_link(HTTPS or SSH)>
 | doc/**/*.pcd | Ignore all files ending ".pcd" under "doc/" and it's sub folders |
 
 ```bash
-touch .gitignore
+touch .gitignore # Create .gitignore file
 ```
 #### [GitHub .gitignore templates](https://github.com/github/gitignore)
 #
@@ -172,7 +172,7 @@ git config --global commit.template ~/.gitmessage
 #
 - Create a github pull request template file
 
-  GitHub pull request used for adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understanable, we use given pull request template.
+  GitHub pull request used for reviewing process during adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understanable, we use given pull request template.
   
 ```bash
 mkdir .github
