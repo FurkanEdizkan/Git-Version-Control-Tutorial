@@ -76,7 +76,7 @@ git config --global user.email "email"
   Latest version of git comes with defaultBranch name as "main".
 
   Some older version "master" name is hardcoded, so it needed to be changed manually.
-  
+
 ```bash
 git config --global init.defaultBranch main
 ```
@@ -125,15 +125,19 @@ cat ~/.ssh/id_ed25519.pub # Copy the ed25519 public key
 #
 
 - Create a new Git repository
+ 
+  Create new repository, every file already inside will be untracked condition
 ```bash
 git init
 ```
 
 - Clone Git repository
+
+  Clone a remote repository to local system
 ```bash
 git clone <repository_link(HTTPS or SSH)>
 ```
-
+#
 - Create a gitignore file
   
   Gitignore file used to ignore files in the repository that we don't want toı track changes or aboid uploading them to remote repositories.
