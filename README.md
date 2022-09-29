@@ -189,8 +189,12 @@ touch .contributing.md # Create .contributing.md file
 ```
 #### [Example contributing.md file](contributing.md)
 
-
+#
 - Check git repository status
+
+  Repository status information give what has changed inside our repository.
+
+  Git track each and every change done to tracked files, no data can be lost or courrpted without willingly removing it.
 ```bash
 git status
 ```
