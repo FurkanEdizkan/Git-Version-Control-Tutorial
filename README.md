@@ -60,7 +60,7 @@ For Debian/Ubuntu
 apt-get install git
 ```
 #
-- Check git installation
+- Check git version & installation
 ```bash
 git --version
 ```
@@ -74,6 +74,9 @@ git config --global user.email "email"
 - Configure main branch name as "main" (For older Git versions)
   
   Latest version of git comes with defaultBranch name as "main".
+
+  Some older version "master" name is hardcoded, so it needed to be changed manually.
+
 ```bash
 git config --global init.defaultBranch main
 ```
@@ -122,15 +125,19 @@ cat ~/.ssh/id_ed25519.pub # Copy the ed25519 public key
 #
 
 - Create a new Git repository
+ 
+  Create new repository, every file already inside will be untracked condition
 ```bash
 git init
 ```
 
 - Clone Git repository
+
+  Clone a remote repository to local system
 ```bash
 git clone <repository_link(HTTPS or SSH)>
 ```
-
+#
 - Create a gitignore file
   
   Gitignore file used to ignore files in the repository that we don't want toı track changes or aboid uploading them to remote repositories.
@@ -165,23 +172,29 @@ git config --global commit.template ~/.gitmessage
 #
 - Create a github pull request template file
 
-  GitHub pull request used for adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understanable, we use given pull request template.
+  GitHub pull request used for reviewing process during adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understanable, we use given pull request template.
   
 ```bash
-mkdir .github
-touch .github/pull_request_template.md
+mkdir .github # Create a .github folder
+touch .github/pull_request_template.md # Create pull_request_template.md file
 ```
 #### [Example pull request template](.github/pull_request_template.md)
 #### [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 #
 - Create a contributing.md template file
+
+  Open-source projects usually supported by contributors. TO determine how someone can contribute and help to our project, we define a contributin guilde.
 ```bash
-touch .contributing.md
+touch .contributing.md # Create .contributing.md file
 ```
 #### [Example contributing.md file](contributing.md)
 
-
+#
 - Check git repository status
+
+  Repository status information give what has changed inside our repository.
+
+  Git track each and every change done to tracked files, no data can be lost or courrpted without willingly removing it.
 ```bash
 git status
 ```
