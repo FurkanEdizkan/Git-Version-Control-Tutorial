@@ -199,6 +199,23 @@ touch .contributing.md # Create .contributing.md file
 git status
 ```
 #
+- Add changes to Staging area
+
+```bash
+git add <changed_file> # Add changed file to stage area
+```
+
+Git Version 2.x
+| Command | New Files| Modified Files | Deleted Files | Description |
+| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| git add -A | :white_check_mark: | :white_check_mark: | :white_check_mark: | Stage all changes |
+| git add . | :white_check_mark: | :white_check_mark: | :white_check_mark: | Stage all changes in current directory |
+| git add --ignore-removal . | :white_check_mark: | :white_check_mark: | :x: | Stage only new and modified files |
+| git add -u | :x: | :white_check_mark: | :white_check_mark: | Add modified and deleted files to stage area |
+
+[source](https://stackoverflow.com/a/26039014/14896772)
+
+#
 
 
 ## GitHub
