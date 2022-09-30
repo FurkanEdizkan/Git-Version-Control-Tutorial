@@ -95,7 +95,7 @@ git config --global --unset <option>
 git config --global --unset core.editor # Remove core.editor from configuration
 ```
 #
-In order to work on the GitHub repositories, we either need to create PAT or generate a SSH key pair. If we are not planning to use GitHub we can skip this step.
+In order to work on the GitHub repositories, we either need to create PAT or generate an SSH key pair. If we are not planning to use GitHub we can skip this step.
 
 - [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   
