@@ -99,7 +99,7 @@ In order to work on the GitHub repositories, we either need to create PAT or gen
 
 - [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   
-  Generated PAT will be used instead of user password for Git operations connected to GitHub. Don't forget it and store it in a safe place.
+  Generated PAT will be used instead of a user password for Git operations connected to GitHub. Don't forget it and store it in a safe place.
 
   GitHub :arrow_right: Settings :arrow_right: Developer Settings :arrow_right: [Personal Access Token](https://github.com/settings/tokens)
 
