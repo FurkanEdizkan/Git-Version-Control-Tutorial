@@ -192,9 +192,9 @@ touch .contributing.md # Create .contributing.md file
 #
 - Check git repository status
 
-  Repository status information give what has changed inside our repository.
+  Repository status information gives what has changed inside our repository.
 
-  Git track each and every change done to tracked files, no data can be lost or corrupted, without willingly removing files from repository.
+  Git tracks each and every change done to tracked files, no data can be lost or corrupted, without willingly removing files from the repository.
 ```bash
 git status
 ```
