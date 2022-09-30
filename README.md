@@ -168,7 +168,7 @@ touch .gitmessage # Create .gitmessage file
 ```bash
 git config --global commit.template ~/.gitmessage
 ```
-#### [Example git commmit message template](.gitmessage)
+#### [Example git commit message template](.gitmessage)
 #
 - Create a github pull request template file
 
