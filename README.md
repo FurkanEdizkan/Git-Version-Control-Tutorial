@@ -140,7 +140,7 @@ git clone <repository_link(HTTPS or SSH)>
 #
 - Create a gitignore file
   
-  Gitignore file used to ignore files in the repository that we don't want toı track changes or aboid uploading them to remote repositories.
+  Gitignore file is used to ignore files in the repository that we don't want toı track changes or avoid uploading them to remote repositories.
 
 | .gitignore | Description |
 | ----------- | ----------- |
