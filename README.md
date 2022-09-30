@@ -183,7 +183,7 @@ touch .github/pull_request_template.md # Create pull_request_template.md file
 #
 - Create a contributing.md template file
 
-  Open-source projects usually supported by contributors. TO determine how someone can contribute and help to our project, we define a contributin guilde.
+  Open-source projects are usually supported by contributors. To determine how someone can contribute and help to our project, we define a contributing guide.
 ```bash
 touch .contributing.md # Create .contributing.md file
 ```
