@@ -172,7 +172,7 @@ git config --global commit.template ~/.gitmessage
 #
 - Create a github pull request template file
 
-  GitHub pull request used for reviewing process during adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understanable, we use given pull request template.
+  GitHub pull requests are used for reviewing the process of adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understandable, we use the given pull request template.
   
 ```bash
 mkdir .github # Create a .github folder
