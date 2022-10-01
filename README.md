@@ -337,9 +337,23 @@ Introduction
 Table of Contents
 
 Git
-- Installation
-- Check version
-- 
+- Installation - Done
+- Check version - Done
+- Git configuration - Done
+  - Initialize - Done
+  - Main branch - Done
+  - VSCode - Done
+  - Unset configuration - Done
+- PAT - Done
+- SSH - Done
+- Create repository - Done
+- Clone repository - Done
+- gitignore - Done
+- commit template - Done
+- pull request template - Done
+- contributing template
+- git status - Done
+- git add - Done
 git commit
 
  -- >
