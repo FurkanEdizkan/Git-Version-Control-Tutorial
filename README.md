@@ -262,11 +262,7 @@ Git Version 2.x
 
 #
 
-<!--
-TODO list
-git commit
 
- -- >
 
 ## GitHub
 
@@ -333,3 +329,17 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
+<!--
+TODO list
+Introduction
+Table of Contents
+
+Git
+- Installation
+- Check version
+- 
+git commit
+
+ -- >
