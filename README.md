@@ -242,9 +242,6 @@ We will try to address all issues as soon possible
 
 See [the contributing guide](contributing.md) for more details
 
-#
-For those who attended the tutorial session and want to be inside contributors list check [Comments.md](Comments.md) for details.
-
 
 <!-- License -->
 ## License
