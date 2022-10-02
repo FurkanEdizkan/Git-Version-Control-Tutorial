@@ -3,7 +3,7 @@
 
   <img src="assets/images/git_name_logo_transparent.png" width="200"  />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/images/GitHub-Mark-Light-120px-plus.png" /> 
+  <img src="assets/images/GitHub-Mark-Light-120px-plus.png" />
   <img src="assets/images/gitlab-logo-200.png" width="300" />
 
 </p>
@@ -18,21 +18,20 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/FurkanEdizkan/Git-GitHub-GitLab-Tutorial?style=social)
 ![GitHub](https://img.shields.io/github/license/FurkanEdizkan/Git-GitHub-GitLab-Tutorial)
 
-
 <!-- Badges -->
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 
-
-
-## !!! Work in Progress !!!
+## !!! Work in Progress
 
 # Git, GitHub & GitLab Guide
+
 This repository contains
+
 - Quick and Advanced Git guide
 - GitHub and GitLab usage guide
-- Version Control examples and recommendations 
+- Version Control examples and recommendations
 
 #
 <!-- Table of Contents -->
@@ -56,21 +55,30 @@ This repository contains
 - Download & install [Git](https://git-scm.com/downloads)
 
 For Debian/Ubuntu
+
 ```bash
 apt-get install git
 ```
+
 #
+
 - Check git version & installation
+
 ```bash
 git --version
 ```
+
 #
+
 - Initialize git configurations
+
 ```bash
 git config --global user.name "user_name"
 git config --global user.email "email"
 ```
+
 #
+
 - Configure the main branch name as "main" (For older Git versions)
   
   The latest version of git comes with the default branch name as "main".
@@ -80,8 +88,11 @@ git config --global user.email "email"
 ```bash
 git config --global init.defaultBranch main
 ```
+
 #
+
 - Configure Visual Studio Code for Git functions
+
 ```bash
 git config --global core.editor 'code --wait --new-window'
 git config --global diff.tool vscode
@@ -89,12 +100,16 @@ git config --global difftool.vscode.cmd'code --wait --diff $LOCAL $REMOTE'
 git config --global merge.tool vscode
 git config --global mergetool.vscode.cmd'code --wait $MERGED'
 ```
+
 - Unset a git configuration
+
 ```bash
 git config --global --unset <option>
 git config --global --unset core.editor # Remove core.editor from configuration
 ```
+
 #
+
 In order to work on the GitHub repositories, we either need to create PAT or generate an SSH key pair. If we are not planning to use GitHub we can skip this step.
 
 - [Personal Access Token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
@@ -102,7 +117,6 @@ In order to work on the GitHub repositories, we either need to create PAT or gen
   Generated PAT will be used instead of a user password for Git operations connected to GitHub. Don't forget it and store it in a safe place.
 
   GitHub :arrow_right: Settings :arrow_right: Developer Settings :arrow_right: [Personal Access Token](https://github.com/settings/tokens)
-
 
 - [SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
@@ -113,20 +127,25 @@ In order to work on the GitHub repositories, we either need to create PAT or gen
 ```bash
 ssh-keygen -t ed25519 -C "email" # Create a new SSH key
 ```
+
 ```bash
 eval "$(ssh-agent -s)" # Start SHH-agent
 ```
+
 ```bash
 ssh-add ~/.ssh/id_ed25519 # Add SSH key 
 ```
+
 ```bash
 cat ~/.ssh/id_ed25519.pub # Copy the ed25519 public key
 ```
+
 #
 
 - Create a new Git repository
- 
+
   Create new repository, every file already inside will be untracked condition
+
 ```bash
 git init
 ```
@@ -134,10 +153,13 @@ git init
 - Clone Git repository
 
   Clone a remote repository to local system
+
 ```bash
 git clone <repository_link(HTTPS or SSH)>
 ```
+
 #
+
 - Create a gitignore file
   
   Gitignore file is used to ignore files in the repository that we don't want toı track changes or avoid uploading them to remote repositories.
@@ -156,8 +178,11 @@ git clone <repository_link(HTTPS or SSH)>
 ```bash
 touch .gitignore # Create .gitignore file
 ```
+
 #### [GitHub .gitignore templates](https://github.com/github/gitignore)
+
 #
+
 - Create a git commit message template file
   
   To keep git history clean and understandable, every commit done to any repository needed to be in a clear format. We need to use commit templates, repositories suggest we use.
@@ -165,11 +190,15 @@ touch .gitignore # Create .gitignore file
 ```bash
 touch .gitmessage # Create .gitmessage file
 ```
+
 ```bash
 git config --global commit.template ~/.gitmessage
 ```
+
 #### [Example git commit message template](.gitmessage)
+
 #
+
 - Create a github pull request template file
 
   GitHub pull requests are used for reviewing the process of adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understandable, we use the given pull request template.
@@ -178,33 +207,44 @@ git config --global commit.template ~/.gitmessage
 mkdir .github # Create a .github folder
 touch .github/pull_request_template.md # Create pull_request_template.md file
 ```
+
 #### [Example pull request template](.github/pull_request_template.md)
+
 #### [Creating a pull request template for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
+
 #
+
 - Create a contributing.md template file
 
   Open-source projects are usually supported by contributors. To determine how someone can contribute and help to our project, we define a contributing guide.
+
 ```bash
 touch .contributing.md # Create .contributing.md file
 ```
+
 #### [Example contributing.md file](contributing.md)
 
 #
+
 - Check git repository status
 
   Repository status information gives what has changed inside our repository.
 
   Git tracks each and every change done to tracked files, no data can be lost or corrupted, without willingly removing files from the repository.
+
 ```bash
 git status
 ```
+
 #
+
 - Add changes to Staging area
 
-  Inside a git repository, files can either be tracked or untracked. 
-  Untracked changes are not tracked by git. 
+  Inside a git repository, files can either be tracked or untracked.
+  Untracked changes are not tracked by git.
   
-  Tracked files can either be unmodified, modified, or staged. We can check file states inside our repository wtih **git status**. Before committing changes, we put them inside staging area with **git add**. 
+  Tracked files can either be unmodified, modified, or staged. We can check file states inside our repository wtih **git status**. Before committing changes, we put them inside staging area with **git add**.
+
 ```bash
 git add <changed_file> # Add changed file to stage area
 git add . # Stage all changes
@@ -212,7 +252,7 @@ git add . # Stage all changes
 
 Git Version 2.x
 | Command | New Files| Modified Files | Deleted Files | Description |
-| ----------- | ----------- | ----------- | ----------- | ----------- | 
+| ----------- | ----------- | ----------- | ----------- | ----------- |
 | git add -A | :white_check_mark: | :white_check_mark: | :white_check_mark: | Stage all changes |
 | git add . | :white_check_mark: | :white_check_mark: | :white_check_mark: | Stage all changes |
 | git add --ignore-removal . | :white_check_mark: | :white_check_mark: | :x: | Stage only new and modified files |
@@ -231,6 +271,7 @@ Git Version 2.x
 
 <!-- Contribuing to Project -->
 ## Contribute
+
 We welcome every contribution, suggestion and improvement
 
 We will try to address all issues as soon possible
@@ -238,8 +279,8 @@ We will try to address all issues as soon possible
 See [the contributing guide](contributing.md) for more details
 
 #
-For those who attended the tutorial session and want to be inside contributors list check [Comments.md](Comments.md) for details.
 
+For those who attended the tutorial session and want to be inside contributors list check [Comments.md](Comments.md) for details.
 
 <!-- License -->
 ## License
@@ -249,6 +290,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 # References
 
 ## Learning
+
 - [Git Tutorial](https://git-scm.com/docs/gittutorial)
 - [Pro Git book](https://git-scm.com/book/en/v2)
 - [GitHub Docs](https://docs.github.com/en)
@@ -256,10 +298,10 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 - [Atlassian Bitbucket Tutorial](https://www.atlassian.com/git)
 
 ## Logos & Images
+
 - [Git](https://git-scm.com/downloads/logos)
 - [GitHub](https://github.com/logos)
 - [GitLab](https://about.gitlab.com/press/press-kit/)
-
 
 <!-- Contributors -->
 ## Contributors
