@@ -1,5 +1,8 @@
 
-## TODO list
+## TODO
+
+Todo list for this tutorial repository
+- [X] Todo list
 - [ ] Introduction
 - [ ] Table of Contents
 
@@ -80,3 +83,13 @@
     - [ ] SSH
   - [ ] User Interface
   - [ ] CI/CD
+
+
+# 
+- [ ] GUI Clients
+- [ ] Contribute
+- [X] License
+- [X] References
+  - [X] Learning references
+  - [X] Logos and images
+- [X] Contributos bot
