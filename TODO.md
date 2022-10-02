@@ -21,4 +21,5 @@
   - [X] contributing template
   - [X] git status
   - [X] git add
-  - [ ] git commit
+  - [X] git commit
+    - [X] git commit --amend

@@ -262,6 +262,27 @@ Git Version 2.x
 
 #
 
+- Commit staged files
+
+  Stages changes needee to be committed. When commit has been made, current state of the project saved inside git. 
+
+```bash
+git commit # Commit staged changes
+git commit -a  # Commit all changes, skip staging area
+git commit -m "<commit_message>" # Commit directly with passed commit 
+git commit -a -m "<commit_message>"
+```
+
+- Amend a commit
+
+  With optional **--amend** command, we can modify the last commit. Staged chagnes will be add inside the previous commit.
+
+```bash
+git commit --amend
+```
+
+#
+
 
 
 ## GitHub
