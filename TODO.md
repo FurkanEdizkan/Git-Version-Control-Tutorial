@@ -26,7 +26,6 @@ Todo list for this tutorial repository
   - [X] git add
   - [X] git commit
     - [X] git commit --amend
-  - [ ] Git pointers
   - [ ] git log
   - [ ] git show
   - [ ] git diff
@@ -49,6 +48,16 @@ Todo list for this tutorial repository
   - [ ] git stash
   - [ ] git rebase
   - [ ] git remotes
+  - [ ] git pull
+  - [ ] git fetch
+  - [ ] git push
+
+# 
+
+- [ ] Git extras
+  - [ ] Commit to past
+  - [ ] 
+
 
 #
 
@@ -93,3 +102,8 @@ Todo list for this tutorial repository
   - [X] Learning references
   - [X] Logos and images
 - [X] Contributos bot
+
+
+# 
+
+- [ ] Fix typo issues
