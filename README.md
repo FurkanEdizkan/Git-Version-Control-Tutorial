@@ -307,6 +307,17 @@ git show <commit_id> # Show commit details
 git show HEAD # Show HEAD details
 ```
 
+- Inspect Changes
+
+  Differences between two commits can be observed
+
+```bash
+git diff # Inspect current changes compared to the latest commit(HEAD)
+git diff --staged # Inspect changes inside the staged area compared to the latest commit(HEAD)
+git diff <commid_id> # Inspect changes between current changes and given commit_id
+git diff <commit_id> <commit_id> # Inspect changes between given two commits
+```
+
 
 ## GitHub
 
