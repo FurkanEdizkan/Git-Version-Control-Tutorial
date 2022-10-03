@@ -318,6 +318,17 @@ git diff <commid_id> # Inspect changes between current changes and given commit_
 git diff <commit_id> <commit_id> # Inspect changes between given two commits
 ```
 
+- Git difftool
+
+  Git allows us to use different tools for git operations. By default, git uses a system editor. We can manually use these tools or change git config preferences and change default git tools.
+  
+```bash
+git difftool # Open git difftool
+git difftool --toll=<tool> # Open given git difftool
+git difftool <commid_id> # Inspoect changes between current and given commit
+git difftool <commit_id> <commid_id> # GInspect changes between give to commits
+git difftool HEAD~x #  Inspect changes between current and "x" previous commits
+```
 
 ## GitHub
 
