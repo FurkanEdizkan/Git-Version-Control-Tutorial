@@ -162,7 +162,7 @@ git clone <repository_link(HTTPS or SSH)>
 
 - Create a gitignore file
   
-  Gitignore file is used to ignore files in the repository that we don't want toı track changes or avoid uploading them to remote repositories.
+  Gitignore file is used to ignore files in the repository that we don't want to track changes or avoid uploading them to remote repositories.
 
 | .gitignore | Description |
 | ----------- | ----------- |
@@ -199,7 +199,7 @@ git config --global commit.template ~/.gitmessage
 
 #
 
-- Create a github pull request template file
+- Create a GitHub pull request template file
 
   GitHub pull requests are used for reviewing the process of adding new feature branches to repositories. It is a review state of the feature. To keep a feature or change clear and understandable, we use the given pull request template.
   
@@ -238,12 +238,12 @@ git status
 
 #
 
-- Add changes to Staging area
+- Add changes to the Staging area
 
   Inside a git repository, files can either be tracked or untracked.
   Untracked changes are not tracked by git.
   
-  Tracked files can either be unmodified, modified, or staged. We can check file states inside our repository wtih **git status**. Before committing changes, we put them inside staging area with **git add**.
+  Tracked files can either be unmodified, modified, or staged. We can check file states inside our repository with **git status**. Before committing changes, we put them inside the staging area with **git add**.
 
 ```bash
 git add <changed_file> # Add changed file to stage area
@@ -264,25 +264,48 @@ Git Version 2.x
 
 - Commit staged files
 
-  Stages changes needee to be committed. When commit has been made, current state of the project saved inside git. 
+  Stages changes need to be committed. When a commit has been made, the current state of the project is saved inside git. 
 
 ```bash
 git commit # Commit staged changes
-git commit -a  # Commit all changes, skip staging area
+git commit -a  # Commit all changes, skip the staging area
 git commit -m "<commit_message>" # Commit directly with passed commit 
 git commit -a -m "<commit_message>"
 ```
 
 - Amend a commit
 
-  With optional **--amend** command, we can modify the last commit. Staged chagnes will be add inside the previous commit.
+  With the optional **--amend** command, we can modify the last commit. Staged changes will be added inside the previous commit.
 
 ```bash
 git commit --amend
 ```
 
 #
+- Git Pointers
 
+  Inside git, each commit is saved with a unique [SHA1 hash](https://en.wikipedia.org/wiki/Cryptographic_hash_function). 
+  
+  Also, some important commits have pointers. Creating a branch or tag creates a unique pointer name to direct commit. 
+  
+  Also, the **HEAD** pointer always points to the current commit. As we make new commits, change branches/tags or return to past commits, the HEAD pointer will also move with us.
+
+- Git History
+  
+  Git tracks the detailed history of each commit done. We can inspect changes done inside each commit, revert them or turn the project back to the state in which the commit was made.
+
+```bash
+git log # Show git history
+```
+
+- Git Commit Details
+  
+  Inside each commit, author, commit date, commit message, and changes done recorded. 
+  
+```bash
+git show <commit_id> # Show commit details
+git show HEAD # Show HEAD details
+```
 
 
 ## GitHub
