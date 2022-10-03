@@ -26,10 +26,10 @@ Todo list for this tutorial repository
   - [X] git add
   - [X] git commit
     - [X] git commit --amend
-  - [ ] git log
-  - [ ] git show
-  - [ ] git diff
-    - [ ] git difftool
+  - [X] git log
+  - [X] git show
+  - [X] git diff
+    - [X] git difftool
   - [ ] git reset
     - [ ] git reset --hard
     - [ ] git reset --mixed
