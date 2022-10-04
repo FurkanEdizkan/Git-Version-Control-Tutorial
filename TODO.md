@@ -31,10 +31,10 @@ Todo list for this tutorial repository
   - [X] git diff
     - [X] git difftool
   - [ ] Undoing changes
-  - [ ] git reset
-    - [ ] git reset --hard
-    - [ ] git reset --mixed
-    - [ ] git reset --soft
+  - [X] git reset
+    - [X] git reset --hard
+    - [X] git reset --mixed
+    - [X] git reset --soft
   - [ ] git revert
   - [ ] git restore
   - [ ] Delete files
