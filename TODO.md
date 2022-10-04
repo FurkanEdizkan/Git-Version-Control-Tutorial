@@ -30,6 +30,7 @@ Todo list for this tutorial repository
   - [X] git show
   - [X] git diff
     - [X] git difftool
+  - [ ] Undoing changes
   - [ ] git reset
     - [ ] git reset --hard
     - [ ] git reset --mixed
@@ -56,7 +57,7 @@ Todo list for this tutorial repository
 
 - [ ] Git extras
   - [ ] Commit to past
-  - [ ] 
+  - [ ] Completely delete a file from repository and history
 
 
 #
