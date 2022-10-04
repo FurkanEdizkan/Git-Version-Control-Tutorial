@@ -352,6 +352,14 @@ git reset --hard # (!!Destructive) Revert changes back to current commit, and de
   <img src="assets/images/git_reset.png"/>
 </p>
 
+- Revert changes
+
+  Git allow us to directly revese apply commits. **git revert** create a new commit reverting given commit.
+
+```bash
+git revert <commit_id> # Revert given commit changes
+```
+
 #
 
 ## GitHub
