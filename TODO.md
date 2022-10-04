@@ -31,12 +31,12 @@ Todo list for this tutorial repository
   - [X] git diff
     - [X] git difftool
   - [ ] Undoing changes
-  - [X] git reset
-    - [X] git reset --hard
-    - [X] git reset --mixed
-    - [X] git reset --soft
-  - [X] git revert
-  - [ ] git restore
+    - [X] git reset
+      - [X] git reset --hard
+      - [X] git reset --mixed
+      - [X] git reset --soft
+    - [X] git revert
+    - [ ] git restore
   - [ ] Delete files
     - [ ] git rm
     - [ ] git filter-branch
