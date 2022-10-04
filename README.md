@@ -329,6 +329,29 @@ git difftool <commid_id> # Inspect changes between current and given commit
 git difftool <commit_id> <commid_id> # Inspect changes between give to commits
 git difftool HEAD~x #  Inspect changes between current and "x" previous commits
 ```
+#
+
+- Undoing changes
+  
+  Git reset is an powerfull tool used for undoing changes inside git.  
+  
+  We can return to an older commit and revert history back to it. 
+
+  There are 3 options for git reset. By dafault **git reset** uses **--mixed** option.
+
+```bash
+git reset --soft # Revert changes from git history back to current commit, keep changes in stage area.
+```
+```bash
+git reset --mixed # (Default) Revert changes from git history and staging area back till current commit, keep changes as local changes.
+```
+```bash
+git reset --hard # (!!Destructive) Revert changes back to current commit, and delete all saves inside git till this commit.
+```
+
+<img src="assets/images/git_reset.png"/>
+
+#
 
 ## GitHub
 
