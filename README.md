@@ -333,20 +333,20 @@ git difftool HEAD~x #  Inspect changes between current and "x" previous commits
 
 - Undoing changes
   
-  Git reset is an powerfull tool used for undoing changes inside git.  
+  Git reset is a powerful tool used for undoing changes inside git.  
   
-  We can return to an older commit and revert history back to it. 
+  We can return to an older commit and revert history to it. 
 
-  There are 3 options for git reset. By dafault **git reset** uses **--mixed** option.
+  There are 3 options for git reset. By default **git reset** uses **--mixed** option.
 
 ```bash
-git reset --soft # Revert changes from git history back to current commit, keep changes in stage area.
+git reset --soft # Revert changes from git history back to current commit, keep changes in the stage area.
 ```
 ```bash
-git reset --mixed # (Default) Revert changes from git history and staging area back till current commit, keep changes as local changes.
+git reset --mixed # (Default) Revert changes from git history and staging area till current commit, keep changes as local changes.
 ```
 ```bash
-git reset --hard # (!!Destructive) Revert changes back to current commit, and delete all saves inside git till this commit.
+git reset --hard # (!!Destructive) Revert changes back to the current commit, and delete all saves inside git till this commit.
 ```
 <p align="center">
   <img src="assets/images/git_reset.png"/>
@@ -354,10 +354,29 @@ git reset --hard # (!!Destructive) Revert changes back to current commit, and de
 
 - Revert changes
 
-  Git allow us to directly revese apply commits. **git revert** create a new commit reverting given commit.
+  Git allows us to directly reverse apply commits. **git revert** create a new commit reverting the given commit.
 
 ```bash
 git revert <commit_id> # Revert given commit changes
+```
+
+- Restore changes to a file
+
+  We can restore changes done to file.
+  
+```bash
+<make a change to a file>
+git restore <file>
+```
+
+- Unstage changes back to index area
+
+  Staged changes can be unstaged back.
+
+```bash
+<make a change to a file>
+git add <file>
+git restore --stage <file>
 ```
 
 #

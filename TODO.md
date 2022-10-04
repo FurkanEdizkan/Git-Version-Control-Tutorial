@@ -36,7 +36,7 @@ Todo list for this tutorial repository
       - [X] git reset --mixed
       - [X] git reset --soft
     - [X] git revert
-    - [ ] git restore
+    - [X] git restore
   - [ ] Delete files
     - [ ] git rm
     - [ ] git filter-branch
