@@ -348,8 +348,9 @@ git reset --mixed # (Default) Revert changes from git history and staging area b
 ```bash
 git reset --hard # (!!Destructive) Revert changes back to current commit, and delete all saves inside git till this commit.
 ```
-
-<img src="assets/images/git_reset.png"/>
+<p align="center">
+  <img src="assets/images/git_reset.png"/>
+</p>
 
 #
 
