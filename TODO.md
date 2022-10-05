@@ -40,8 +40,8 @@ Todo list for this tutorial repository
   - [X] git rm
   - [X] git tag
   - [ ] git branch
-    - [ ] git checkout
-    - [ ] git switch
+  - [ ] git checkout
+  - [ ] git switch
   - [ ] git merge
   - [ ] git mergetool
   - [ ] git stash
