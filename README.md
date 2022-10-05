@@ -381,6 +381,17 @@ git restore --stage <file>
 
 #
 
+- Untrack files inside git repositories
+  
+  When we want to delete files from a repository, we either directly delete the files or we use **git rm**.
+
+```bash
+git rm # Remove files from the repository and file system and untrack
+git rm --cached # Untrack file but keep it inside file system
+```
+
+#
+
 ## GitHub
 
 ## GitLab
