@@ -381,6 +381,32 @@ git restore --stage <file>
 
 #
 
+- Untrack files inside git repositories
+  
+  When we want to delete files from a repository, we either directly delete the files or we use **git rm**.
+
+```bash
+git rm # Remove files from the repository and file system and untrack
+git rm --cached # Untrack file but keep it inside file system
+```
+
+#
+
+- Tagging important development points
+
+  During development, important waypoints can be tracked by git, for example, version 1.0 of a project is an important waypoint.
+
+  There are 2 tag options, lightweight and annotated. Lightweight tags are just pointers to certain commits, however, annotated tags are more complex tags. Annotated tags are stored as [full objects](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+
+
+```bash
+git tag # Show tag list
+git tag <tag_name> # Create lightweight tag
+git tag -a <tag_name> -m "tag_message" # Create annotated tag and add tag message
+```
+
+#
+
 ## GitHub
 
 ## GitLab
