@@ -433,7 +433,16 @@ git branch # List branches
 git branch -a # List all branches 
 git branch <branch_name> # Create new branch
 git branch -m <current_name> <new_name> # Change name of a branch
+git branch -d <branch> # Delete branch
 ```
+
+```bash
+git checkout -b <branch_name> # Create new branch and checkout to it
+git switch -c <branch_name> # Create new branch and checkout to it
+```
+
+#
+
 
 ## GitHub
 
