@@ -422,7 +422,7 @@ git checkout HEAD~2 # Checkout to 2 commit earlier of HEAD pointer
 
 #
 
-- Git branch
+- Create branches
 
   Branching is creating an isolated copy of the current branch or commit. A branch is just a pointer to a certain commit object. With branching, we can isolate our work from main/master branches and continue our development without affecting other branches.
 
