@@ -39,8 +39,8 @@ Todo list for this tutorial repository
     - [X] git restore
   - [X] git rm
   - [X] git tag
+  - [X] git checkout
   - [ ] git branch
-    - [ ] git checkout
     - [ ] git switch
     - [ ] git merge
     - [ ] git mergetool

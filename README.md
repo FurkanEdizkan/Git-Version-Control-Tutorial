@@ -407,6 +407,21 @@ git tag -a <tag_name> -m "tag_message" # Create annotated tag and add tag messag
 
 #
 
+- Checkout to a commit
+  
+  With checkout we can change our HEAD pointer to a any commit inside history. When we checkout to a commit, which not the latest inside its commit tree or has no pointer assigned to it like tag or branch, we enter into detached HEAD state. 
+  
+  Detached HEAD state is not an error, it is just a warning to user. We can view changes and make experimental changes inside detached HEAD state, however in order to make a change we need to create an new branch and commit our changes into the branch.
+
+```bash
+git checkout <commit_id> # Checkout to a commit
+git checkout <branch> # Checkout to a branch
+git checkout <tag> # Checkout to a tag
+git checkout HEAD~2 # Checkout to 2 commit earlier of HEAD pointer
+```
+
+#
+
 - Git branch
 
   Branching is creating an isolated copy of the current branch or commit. A branch is just a pointer to a certain commit object. With branching, we can isolate our work from main/master branches and continue our development without affecting other branches.
