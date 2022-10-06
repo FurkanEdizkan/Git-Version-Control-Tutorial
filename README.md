@@ -288,7 +288,7 @@ git commit --amend
   
   Also, some important commits have pointers. Creating a branch or tag creates a unique pointer name to direct commit. 
   
-  Also, the **HEAD** pointer always points to the current commit. As we make new commits, change branches/tags or return to past commits, the HEAD pointer will also move with us.
+  The **HEAD** pointer always points to the current commit. As we make new commits, change branches/tags or return to past commits, the HEAD pointer will also move with us.
 
 - Git History
   
