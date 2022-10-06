@@ -407,6 +407,19 @@ git tag -a <tag_name> -m "tag_message" # Create annotated tag and add tag messag
 
 #
 
+- Git branch
+
+  Branching is creating an isolated copy of the current branch or commit. A branch is just a pointer to a certain commit object. With branching, we can isolate our work from main/master branches and continue our development without affecting other branches.
+
+  It is good practice to create a new branch per feature, make development inside it, then merge it into a main/master branch. After development end on a branch and it is merged, it can be deleted, to minimize individual branch count.
+
+```bash
+git branch # List branches
+git branch -a # List all branches 
+git branch <branch_name> # Create new branch
+git branch -m <current_name> <new_name> # Change name of a branch
+```
+
 ## GitHub
 
 ## GitLab
