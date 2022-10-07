@@ -437,6 +437,7 @@ git branch -d <branch> # Delete branch
 ```
 
 ```bash
+git branch -m <branch_name> # Create new branch and checkout to it
 git checkout -b <branch_name> # Create new branch and checkout to it
 git switch -c <branch_name> # Create new branch and checkout to it
 ```
