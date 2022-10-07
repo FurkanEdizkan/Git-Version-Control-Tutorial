@@ -43,8 +43,8 @@ Todo list for this tutorial repository
   - [X] git branch
     - [X] git switch
     - [X] git merge
-    - [ ] merge conflict
-    - [ ] git mergetool
+    - [X] merge conflict
+    - [X] git mergetool
   - [ ] git stash
   - [ ] git rebase
   - [ ] git remotes

@@ -471,6 +471,16 @@ incoming changes
 >>>>>>> feature_branch
 ...
 ```
+
+- Git mergetool
+
+  Git allow us to use, other tools to resolve merge conflicts. These tools can allow us to resolve conflicts more easly and faster.
+
+```bash
+git mergetool # Use default mergetool
+git mergetool --tool=<tool> # Uses selected mergetool
+```
+
 #
 
 
