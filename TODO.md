@@ -42,9 +42,9 @@ Todo list for this tutorial repository
   - [X] git checkout
   - [X] git branch
     - [X] git switch
-    - [ ] git merge
-    - [ ] git mergetool
+    - [X] git merge
     - [ ] merge conflict
+    - [ ] git mergetool
   - [ ] git stash
   - [ ] git rebase
   - [ ] git remotes
