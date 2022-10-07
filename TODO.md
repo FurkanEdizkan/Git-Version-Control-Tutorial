@@ -81,6 +81,8 @@ Todo list for this tutorial repository
     - [ ] Projects
     - [ ] Security
     - [ ] Insights
+    - [ ] Release
+  - [ ] GitHub Pages
 
 #
 
