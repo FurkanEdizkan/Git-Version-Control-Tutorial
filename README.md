@@ -441,6 +441,14 @@ git checkout -b <branch_name> # Create new branch and checkout to it
 git switch -c <branch_name> # Create new branch and checkout to it
 ```
 
+- Merge branches
+
+  When we want to apply changes inside an branch into other branch, we merge them together. After merge both branch pointers will point to the same new merge commit.
+
+```bash
+git merge <branch_name> # Merge named branch into current branch
+```
+
 #
 
 
