@@ -374,7 +374,7 @@ git restore <file>
   Staged changes can be unstaged back.
 
 ```bash
-<make a change to a file>
+--make a change to a file--
 git add <file>
 git restore --stage <file>
 ```
@@ -449,6 +449,27 @@ git switch -c <branch_name> # Create new branch and checkout to it
 git merge <branch_name> # Merge named branch into current branch
 ```
 
+- Merge conflicts
+
+  When merging branches git will try to merge all changes possible, however, if there are different edits on the same lines on both branches, the merge will fail, and merge conflicts will happen.
+
+  Merge conflicts, needed to be handled by hand. When merge conflicts arise, git will automatically mark the problem file and highlight the conflicting changes inside with **"==="**, **"<<<"**, and **">>>"**. As the user, we need to manually resolve the conflict by removing "<<< current_change === incoming_change >>>" and writing the changes we want to keep. After resolving the conflict, we need to git add and git commit the conflict. This commit will automatically fill the commit message as merge messge.
+
+```bash
+git merge <branch_name>
+--merge conflict--
+```
+```bash
+cat merge.txt
+...
+<<<<<<< HEAD
+this is some content to mess with
+content to append
+=======
+totally different content to merge later
+>>>>>>> new_branch_to_merge_later
+...
+```
 #
 
 
