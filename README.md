@@ -459,15 +459,15 @@ git merge <branch_name> # Merge named branch into current branch
 git merge <branch_name>
 --merge conflict--
 ```
-```bash
-cat merge.txt
+
+```
+cat <conflicting_file>
 ...
 <<<<<<< HEAD
-this is some content to mess with
-content to append
+current changes
 =======
-totally different content to merge later
->>>>>>> new_branch_to_merge_later
+incoming changes
+>>>>>>> feature_branch
 ...
 ```
 #
