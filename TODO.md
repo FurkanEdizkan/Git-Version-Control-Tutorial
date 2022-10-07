@@ -107,3 +107,4 @@ Todo list for this tutorial repository
 # 
 
 - [ ] Fix typo issues
+- [ ] Add visualizations and documentation
