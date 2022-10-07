@@ -44,6 +44,7 @@ Todo list for this tutorial repository
     - [X] git switch
     - [ ] git merge
     - [ ] git mergetool
+    - [ ] merge conflict
   - [ ] git stash
   - [ ] git rebase
   - [ ] git remotes
