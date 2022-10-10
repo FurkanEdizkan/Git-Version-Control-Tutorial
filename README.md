@@ -483,7 +483,13 @@ git mergetool --tool=<tool> # Uses selected mergetool
 
 #
 
+- Git stash
 
+  When we want to save our changes in index area and staged area without making a commit we use **git stash** command. 
+  
+  Stashed changes can be transferred and applied to different branches.
+
+  
 ## GitHub
 
 ## GitLab
