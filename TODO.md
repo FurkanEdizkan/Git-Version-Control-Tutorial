@@ -45,7 +45,7 @@ Todo list for this tutorial repository
     - [X] git merge
     - [X] merge conflict
     - [X] git mergetool
-  - [ ] git stash
+  - [X] git stash
   - [ ] git rebase
   - [ ] git remotes
   - [ ] git pull
