@@ -507,6 +507,13 @@ git stash clear # Clear all stashed changes
 
   Rebasing basically, taking a branch's base commit with its following commits, change its base posiiton to an other commit and apply them to the changed position.
 
+  It is a controversy, if git history should be edited. Git history shows every change done duing production process, keeping it clear and understandleable will help in almost every case. 
+  
+  The controversy is, you will deploy your project and people will view it. Do we want everybody to know every dirty mistake or trashed feature development we did during prodcution phase? House keeping git hgistory can clean thing we don't want to show others.
+
+  Choose what you want to do with **git rebase**, however personally, I suggest don't change git history. Use git rebase just to apply changes between branches.
+
+
 ```bash
 
 ```
