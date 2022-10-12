@@ -501,8 +501,11 @@ git stash clear # Clear all stashed changes
 
 - Git rebase
 
-  Rebase is specialized tool used for rewriting commit history and itegrating changes from one branch to another.
+  Rebase is specialized tool used for rewriting commit history and integrating changes from one branch to another.
 
+  Changing git history is always dangerous and cause data loss if not handled properly. 
+
+  Rebasing basically, taking a branch's base commit with its following commits, change its base posiiton to an other commit and apply them to the changed position.
 
 ```bash
 
