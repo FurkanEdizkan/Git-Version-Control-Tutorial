@@ -513,9 +513,9 @@ git stash clear # Clear all stashed changes
 
   Choose what you want to do with **git rebase**, however personally, I suggest don't change git history. Use git rebase just to apply changes between branches.
 
-
 ```bash
-
+git switch <feature_branch> # Switch to feature branch
+git rebase <feature_branch> <main_branch> # Apply changes done inside feature branch into tip of main branch
 ```
 
 #
