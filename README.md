@@ -501,7 +501,8 @@ git stash clear # Clear all stashed changes
 
 - Git rebase
 
-  sad
+  Rebase is specialized tool used for rewriting commit history and itegrating changes from one branch to another.
+
 
 ```bash
 
