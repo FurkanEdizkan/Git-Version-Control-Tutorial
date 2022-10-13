@@ -535,7 +535,9 @@ git remote add <remote_name> <remote_link> # Add remote to repository
 git remote rename <remote_name> <new_remote_name> # Change remote name to <new_remote_name>
 ```
 
-#
+- Pull changes from remotes and apply
+
+# 
 
 ## GitHub
 
