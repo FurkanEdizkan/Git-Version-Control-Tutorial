@@ -522,7 +522,12 @@ git rebase <feature_branch> <main_branch> # Apply changes done inside feature br
 
 - Remote repositories
 
-  
+```bash
+
+```
+
+#
+
 ## GitHub
 
 ## GitLab
