@@ -30,7 +30,7 @@ Todo list for this tutorial repository
   - [X] git show
   - [X] git diff
     - [X] git difftool
-  - [ ] Undoing changes
+  - [X] Undoing changes
     - [X] git reset
       - [X] git reset --hard
       - [X] git reset --mixed
