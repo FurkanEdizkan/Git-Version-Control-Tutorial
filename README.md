@@ -505,7 +505,7 @@ git stash clear # Clear all stashed changes
 
   Changing git history is always dangerous and causes data loss if not handled properly. 
 
-  Rebasing takes a branch's base commit with its following commits, changes its base position to an other commit, and applies them to the changed position.
+  Rebasing takes a branch's base commit with its following commits, changes its base position to another commit, and applies them to the changed position.
 
   It is a controversy if git history should be edited. Git history shows every change done during the production process, keeping it clear and understandable will help in almost every case. 
   
@@ -522,8 +522,15 @@ git rebase <feature_branch> <main_branch> # Apply changes done inside feature br
 
 - Remote repositories
 
-```bash
+  Remotes are versions of our repositories that are stored on a server. Single repository can have multiple different remote repositories.
 
+  When defining remote, we gave it a unique name, when we want to use certain remote, we specify its name. By default, **origin** is used for the remote name.
+
+  If a repository is cloned, it will come with its own remote linked to cloned link. However if a new repository wannted to add into a remote we need to add remote link to our repository.
+
+```bash
+git remote # Show remote list
+git remote show <remote_name> # Show remote details
 ```
 
 #
