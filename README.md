@@ -531,6 +531,8 @@ git rebase <feature_branch> <main_branch> # Apply changes done inside feature br
 ```bash
 git remote # Show remote list
 git remote show <remote_name> # Show remote details
+git remote add <remote_name> <remote_link> # Add remote to repository
+git remote rename <remote_name> <new_remote_name> # Change remote name to <new_remote_name>
 ```
 
 #
