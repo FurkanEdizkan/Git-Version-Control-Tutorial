@@ -48,9 +48,9 @@ Todo list for this tutorial repository
   - [X] git stash
   - [X] git rebase
   - [ ] git remotes
-  - [ ] git pull
-  - [ ] git fetch
-  - [ ] git push
+    - [ ] git pull
+    - [ ] git fetch
+    - [ ] git push
 
 # 
 
