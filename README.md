@@ -522,11 +522,11 @@ git rebase <feature_branch> <main_branch> # Apply changes done inside feature br
 
 - Remote repositories
 
-  Remotes are versions of our repositories that are stored on a server. Single repository can have multiple different remote repositories.
+  Remotes are versions of our repositories that are stored on a server. A single repository can have multiple different remote repositories.
 
-  When defining remote, we gave it a unique name, when we want to use certain remote, we specify its name. By default, **origin** is used for the remote name.
+  When defining a remote, we gave it a unique name, when we want to use a certain remote, we specify its name. By default, **origin** is used for the remote name.
 
-  If a repository is cloned, it will come with its own remote linked to cloned link. However if a new repository wannted to add into a remote we need to add remote link to our repository.
+  If a repository is cloned, it will come with its own remote linked to cloned link. However, if a new repository wanted to add a remote we need to add a remote link to our repository.
 
 ```bash
 git remote # Show remote list
