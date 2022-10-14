@@ -537,7 +537,7 @@ git remote rename <remote_name> <new_remote_name> # Change remote name to <new_r
 
 - Pull changes from remotes and apply
 
-  Before we push our changes, we need to check if tehre are nay changes to our current branch.
+  Before we push our changes, we need to check if tehre are nay changes to our current branch. We need to pull changes from remote repositories. **git pull** command pulls changes done to our branch on remote repository,
 
 # 
 
