@@ -537,9 +537,9 @@ git remote rename <remote_name> <new_remote_name> # Change remote name to <new_r
 
 - Pull changes from remotes and apply
 
-  Before we push our changes, we need to check if tehre are nay changes to our current branch. We need to pull changes from remote repositories. **git pull** command pulls changes done to our branch on remote repository, and try to apply changes to the branch.
+  Before we push our changes, we need to check if there are may change to our current branch. We need to pull changes from remote repositories. **git pull** command pulls changes done to our branch on the remote repository and tries to apply changes to the branch.
 
-  This can cause merge conflicts, if there are multiple developer using same branch and making commits to it.
+  This can cause merge conflicts if there are multiple developers using same branch and making commits to it.
 
 ```bash
 git pull # Pull changes from remote
