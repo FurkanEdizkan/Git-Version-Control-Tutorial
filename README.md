@@ -544,7 +544,7 @@ git remote rename <remote_name> <new_remote_name> # Change remote name to <new_r
 ```bash
 git pull # Pull changes from remote
 git pull origin master # Pull changes on **master** branch from **origin** remote
-git pull <remote> <branch>
+git pull <remote> <branch> # Pull changes on given branch from given remote
 ```
 
 # 
