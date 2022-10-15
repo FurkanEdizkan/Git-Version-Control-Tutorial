@@ -557,6 +557,7 @@ git pull <remote> <branch> # Pull changes on given branch from given remote
 git fetch # Download all changes from remotes
 git fetch -p # Download all changes and delete unused removed remotes
 ```
+
 #
 
 ## GitHub
