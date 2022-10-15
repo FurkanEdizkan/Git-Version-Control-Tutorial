@@ -49,7 +49,7 @@ Todo list for this tutorial repository
   - [X] git rebase
   - [ ] git remotes
     - [X] git pull
-    - [ ] git fetch
+    - [X] git fetch
     - [ ] git push
 
 # 
