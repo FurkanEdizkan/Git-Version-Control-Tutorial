@@ -558,10 +558,12 @@ git fetch -p # Download all changes and delete unused removed remotes
 
 - Push changes
 
+  When we want to upload our changes to remote repositories, we push them. If no remote and/or branch mentioned by dafault, push command will push changes on current branch to tracked remote.
 
 ```bash
 git push # Push changes to remote
 git push <remote> <branch> # Push changes done on branch to remote
+git push -d <remote> <branch> # Delete a branch from remote repository
 ```
 
 #
