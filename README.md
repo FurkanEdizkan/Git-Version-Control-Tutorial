@@ -556,8 +556,13 @@ git fetch # Download all changes from remotes
 git fetch -p # Download all changes and delete unused removed remotes
 ```
 
-#
+- Push changes
 
+
+```bash
+git push # Push changes to remote
+git push <remote> <branch> # Push changes done on branch to remote
+```
 
 #
 
