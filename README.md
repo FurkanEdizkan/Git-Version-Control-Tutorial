@@ -546,9 +546,7 @@ git pull # Pull changes from remote
 git pull origin master # Pull changes on **master** branch from **origin** remote
 git pull <remote> <branch> # Pull changes on given branch from given remote
 ```
-
-# 
-
+ 
 - Fetch changes done to all remotes
 
   The fetch command downloads all changes done to all branches on the current remote. However it will not apply remote changes to branches, it will just update the remote/branch. If we want to apply changes on the remote branch we need to pull changes done to the current branch.
@@ -557,6 +555,9 @@ git pull <remote> <branch> # Pull changes on given branch from given remote
 git fetch # Download all changes from remotes
 git fetch -p # Download all changes and delete unused removed remotes
 ```
+
+#
+
 
 #
 
