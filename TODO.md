@@ -47,10 +47,10 @@ Todo list for this tutorial repository
     - [X] git mergetool
   - [X] git stash
   - [X] git rebase
-  - [ ] git remotes
+  - [X] git remotes
     - [X] git pull
     - [X] git fetch
-    - [ ] git push
+    - [X] git push
 
 # 
 
