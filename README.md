@@ -38,7 +38,7 @@ This repository contains
 <details>
   <summary>Table of Contents</summary>
     <li><a href="#Git">Git</a></li>
-    <li><a href="#GitLab">GitHub</a></li>
+    <li><a href="#GitHub">GitHub</a></li>
     <li><a href="#GitLab">GitLab</a></li>
     <li><a href="#Contribute">Contribute</a></li>
     <li><a href="#License">License</a></li>
