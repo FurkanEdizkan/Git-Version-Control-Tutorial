@@ -3,10 +3,10 @@
 
 Todo list for this tutorial repository
 - [X] Todo list
-- [ ] Introduction
+- [X] Introduction
 - [X] Table of Contents
 
-- [ ] Git
+- [X] Git
   - [X] Installation
   - [X] Check version
   - [X] Git configuration
