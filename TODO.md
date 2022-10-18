@@ -4,7 +4,7 @@
 Todo list for this tutorial repository
 - [X] Todo list
 - [ ] Introduction
-- [ ] Table of Contents
+- [X] Table of Contents
 
 - [ ] Git
   - [X] Installation
