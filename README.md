@@ -580,6 +580,14 @@ git commit --date='year-month-day hour:minutes:seconds' -m "message"
 ```
 [source](https://stackoverflow.com/a/65568096/14896772)
 
+
+- Delete a file permanently from Git Repository and History
+
+  During development, unwanted files could end up isnide our git repository. 
+  
+  Commited files can be removed locally, however if they stored inside git repository they needed to be removed manually and forcefully.
+
+  
 ## GitHub
 
 ## GitLab
