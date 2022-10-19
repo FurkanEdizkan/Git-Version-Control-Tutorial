@@ -38,6 +38,7 @@ This repository contains
 <details>
   <summary>Table of Contents</summary>
     <li><a href="#Git">Git</a></li>
+    <li><a href="#Advanced Git">Advanced Git</a></li>
     <li><a href="#GitHub">GitHub</a></li>
     <li><a href="#GitLab">GitLab</a></li>
     <li><a href="#Contribute">Contribute</a></li>
@@ -567,6 +568,8 @@ git push -d <remote> <branch> # Delete a branch from remote repository
 ```
 
 #
+
+## Advanced Git
 
 ## GitHub
 
