@@ -55,7 +55,7 @@ Todo list for this tutorial repository
 # 
 
 - [ ] Git extras
-  - [ ] Commit to past
+  - [X] Commit to past
   - [ ] Completely delete a file from repository and history
   - [ ] Git workflows
   - [ ] Git bundling
