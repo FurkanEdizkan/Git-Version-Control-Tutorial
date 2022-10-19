@@ -575,6 +575,10 @@ git push -d <remote> <branch> # Delete a branch from remote repository
 
   It is not recommended to play or trick git history, but it is possible.
 
+```bash
+git commit --date='year-month-day hour:minutes:seconds' -m "message"
+```
+[source](https://stackoverflow.com/a/65568096/14896772)
 
 ## GitHub
 
