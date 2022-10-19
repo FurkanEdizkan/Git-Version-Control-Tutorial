@@ -583,11 +583,11 @@ git commit --date='year-month-day hour:minutes:seconds' -m "message"
 
 - Delete a file permanently from Git Repository and History
 
-  During development, unwanted files could end up isnide our git repository. 
+  During development, unwanted files could end up inside our git repository. 
   
-  Commited files can be removed locally, however if they stored inside git repository they needed to be removed manually and forcefully.
+  Committed files can be removed locally, however, if they are stored inside the git repository they needed to be removed manually and forcefully.
 
-  This is an dangerous command, which will reweite git history and make edit exisiting commits.
+  This is a dangerous command, which will rewrite git history and make edit existing commits.
 
   Don't use it, if it is a must to use.
 
