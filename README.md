@@ -587,7 +587,18 @@ git commit --date='year-month-day hour:minutes:seconds' -m "message"
   
   Commited files can be removed locally, however if they stored inside git repository they needed to be removed manually and forcefully.
 
-  
+  This is an dangerous command, which will reweite git history and make edit exisiting commits.
+
+  Don't use it, if it is a must to use.
+
+  Instead use [git-filter-repo](https://github.com/newren/git-filter-repo)
+
+```bash
+git filter-branch --index-filter “git rm -rf --cached --ignore-unmatch
+<file>” HEAD
+```
+[source](https://stackoverflow.com/a/64563565/14896772)
+
 ## GitHub
 
 ## GitLab
