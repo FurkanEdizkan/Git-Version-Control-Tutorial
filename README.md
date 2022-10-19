@@ -571,6 +571,11 @@ git push -d <remote> <branch> # Delete a branch from remote repository
 
 ## Git-Plus
 
+- Commit to past
+
+  It is not recommended to play or trick git history, but it is possible.
+
+
 ## GitHub
 
 ## GitLab
