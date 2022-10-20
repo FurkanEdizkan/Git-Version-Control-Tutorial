@@ -54,7 +54,7 @@ Todo list for this tutorial repository
 
 # 
 
-- [ ] Git extras
+- [X] Git extras
   - [X] Commit to past
   - [X] Completely delete a file from repository and history
   - [X] Git bundling
