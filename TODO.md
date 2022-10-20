@@ -57,11 +57,6 @@ Todo list for this tutorial repository
 - [ ] Git extras
   - [X] Commit to past
   - [X] Completely delete a file from repository and history
-  - [ ] Git workflows
-    - [ ] Centralized Workflow
-    - [ ] Feature Branch Workflow
-    - [ ] Gitflow Workflow
-    - [ ] Forking Workflow 
   - [ ] Git bundling
 
 #

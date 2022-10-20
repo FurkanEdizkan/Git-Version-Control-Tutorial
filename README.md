@@ -599,14 +599,7 @@ git filter-branch --index-filter “git rm -rf --cached --ignore-unmatch
 ```
 [source](https://stackoverflow.com/a/64563565/14896772)
 
-- Git Workflows
-
-  - Centralized Workflow
-  
-    
-  - Feature Branch Workflow
-  - Gitflow Workflow
-  - Forking Workflow
+- Bundling repository
 
 
 ## GitHub
