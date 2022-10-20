@@ -58,9 +58,9 @@ Todo list for this tutorial repository
   - [X] Commit to past
   - [X] Completely delete a file from repository and history
   - [X] Git bundling
+  - [ ] GUI Clients
 
 # 
-- [ ] GUI Clients
 - [ ] Contribute
 - [X] License
 - [X] References

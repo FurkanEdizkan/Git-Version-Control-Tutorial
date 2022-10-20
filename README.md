@@ -25,13 +25,12 @@
 
 ## !!! [Work in Progress](TODO.md)
 
-# Git, GitHub & GitLab Guide
+# Git Version Control Guide
 
 This repository contains
 
 - Quick and Advanced Git guide
-- GitHub and GitLab usage guide
-- Version Control examples and recommendations
+- Advanced Git topics and examples
 
 #
 <!-- Table of Contents -->
@@ -39,8 +38,6 @@ This repository contains
   <summary>Table of Contents</summary>
     <li><a href="#Git">Git</a></li>
     <li><a href="#Git-Plus">Git-Plus</a></li>
-    <li><a href="#GitHub">GitHub</a></li>
-    <li><a href="#GitLab">GitLab</a></li>
     <li><a href="#Contribute">Contribute</a></li>
     <li><a href="#License">License</a></li>
     <li><a href="#References">References</a></li>
@@ -610,10 +607,6 @@ git bundle creates a repo.bundle HEAD master # Bundle a repository on the master
 git clone repo.bundle repo # Clone a bundled repository to local
 ```
 
-## GitHub
-
-## GitLab
-
 #
 
 <!-- Contribuing to Project -->
@@ -633,7 +626,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 # References
 
-## Learning
+### Learning
 
 - [Git Tutorial](https://git-scm.com/docs/gittutorial)
 - [Pro Git book](https://git-scm.com/book/en/v2)
@@ -641,7 +634,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 - [GitLab Docs](https://docs.gitlab.com/)
 - [Atlassian Bitbucket Tutorial](https://www.atlassian.com/git)
 
-## Logos & Images
+### Logos & Images
 
 - [Git](https://git-scm.com/downloads/logos)
 - [GitHub](https://github.com/logos)
