@@ -61,7 +61,7 @@ Todo list for this tutorial repository
   - [ ] GUI Clients
 
 # 
-- [ ] Contribute
+- [X] Contribute
 - [X] License
 - [X] References
   - [X] Learning references
