@@ -601,6 +601,13 @@ git filter-branch --index-filter “git rm -rf --cached --ignore-unmatch
 
 - Git Workflows
 
+  - Centralized Workflow
+  
+    
+  - Feature Branch Workflow
+  - Gitflow Workflow
+  - Forking Workflow
+
 
 ## GitHub
 
