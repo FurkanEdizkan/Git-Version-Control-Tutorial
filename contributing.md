@@ -1,7 +1,14 @@
 <!-- Contribuing Guilde -->
 
-# Contributing Guidelines
+### Contributing Guidelines
 
-## !!! Work in Progress !!!
+Any contribution of any kind is welcome.
 
-Thank you for contribuing 
+**To contribute:**
+- Fork this repository
+- Create a new feature branch
+- Make changes to your branch inside forked repository
+- Open a pull request
+
+
+Thank you for contributing 
