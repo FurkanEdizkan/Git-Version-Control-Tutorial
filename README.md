@@ -624,6 +624,7 @@ We will try to address all issues as soon possible
 
 See [the contributing guide](contributing.md) for more details
 
+### [TODO](TODO.md) (Completed)
 
 <!-- License -->
 ## License
@@ -645,8 +646,6 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 - [Git](https://git-scm.com/downloads/logos)
 - [GitHub](https://github.com/logos)
 - [GitLab](https://about.gitlab.com/press/press-kit/)
-
-### [TODO](TODO.md) (Completed)
 
 <!-- Contributors -->
 ## Contributors
