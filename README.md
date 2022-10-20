@@ -23,7 +23,6 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 
-## !!! [Work in Progress](TODO.md)
 
 # Git Version Control Guide
 
@@ -41,6 +40,7 @@ This repository contains
     <li><a href="#Contribute">Contribute</a></li>
     <li><a href="#License">License</a></li>
     <li><a href="#References">References</a></li>
+    <li><a href="#TODO">TODO</a></li>
     <li><a href="#Contributors">Contributors</a></li>
   </ol>
 </details>
@@ -612,7 +612,7 @@ git clone repo.bundle repo # Clone a bundled repository to local
   There are many usefull git gui clients, it is a good thing to know what is happening inside git with terminal commands, however gui clients will accelerate your git usage.
 
   [List of git GUI clients](https://git-scm.com/downloads/guis)
-  
+
 #
 
 <!-- Contribuing to Project -->
@@ -645,6 +645,8 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 - [Git](https://git-scm.com/downloads/logos)
 - [GitHub](https://github.com/logos)
 - [GitLab](https://about.gitlab.com/press/press-kit/)
+
+### [TODO](TODO.md) (Completed)
 
 <!-- Contributors -->
 ## Contributors
