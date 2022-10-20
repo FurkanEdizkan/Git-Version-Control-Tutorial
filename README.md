@@ -40,7 +40,6 @@ This repository contains
     <li><a href="#Contribute">Contribute</a></li>
     <li><a href="#License">License</a></li>
     <li><a href="#References">References</a></li>
-    <li><a href="#TODO">TODO</a></li>
     <li><a href="#Contributors">Contributors</a></li>
   </ol>
 </details>
