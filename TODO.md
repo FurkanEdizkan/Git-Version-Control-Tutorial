@@ -71,5 +71,5 @@ Todo list for this tutorial repository
 
 # 
 
-- [ ] Fix typo issues
-- [ ] Add visualizations and documentation
+- [X] Fix typo issues
+- [X] Add visualizations and documentation
