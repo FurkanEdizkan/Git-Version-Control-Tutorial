@@ -607,6 +607,12 @@ git bundle creates a repo.bundle HEAD master # Bundle a repository on the master
 git clone repo.bundle repo # Clone a bundled repository to local
 ```
 
+- Git GUI Clients
+
+  There are many usefull git gui clients, it is a good thing to know what is happening inside git with terminal commands, however gui clients will accelerate your git usage.
+
+  [List of git GUI clients](https://git-scm.com/downloads/guis)
+  
 #
 
 <!-- Contribuing to Project -->
