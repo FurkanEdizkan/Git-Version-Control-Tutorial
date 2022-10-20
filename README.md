@@ -601,6 +601,10 @@ git filter-branch --index-filter “git rm -rf --cached --ignore-unmatch
 
 - Bundling repository
 
+  In order to share a repository, we need to push to a remote  repository, however a network conenction might not be up always.
+
+  In order to share a repository, git has a function to store repository inside a single file that can be transfered.
+  
 
 ## GitHub
 
