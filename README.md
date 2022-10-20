@@ -601,12 +601,12 @@ git filter-branch --index-filter “git rm -rf --cached --ignore-unmatch
 
 - Bundling repository
 
-  In order to share a repository, we need to push to a remote  repository, however a network conenction might not be up always.
+  To share a repository, we need to push to a remote repository, however, a network connection might not be up always.
 
-  In order to share a repository, git has a function to store repository inside a single file that can be transfered.
+  To share a repository, git has a function to store the repository inside a single file that can be transferred.
 
 ```bash
-git bundle create repo.bundle HEAD master # Bundle a repository on master branch
+git bundle creates a repo.bundle HEAD master # Bundle a repository on the master branch
 git clone repo.bundle repo # Clone a bundled repository to local
 ```
 
