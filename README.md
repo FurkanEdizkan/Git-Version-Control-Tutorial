@@ -24,11 +24,11 @@
 ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white)
 
 
-# Git Version Control Guide
+# Git Version Control Tutorial
 
 This repository contains
 
-- Quick and Advanced Git guide
+- Quick and Advanced Git Tutorial
 - Advanced Git topics and examples
 
 #
